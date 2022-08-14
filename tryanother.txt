@@ -1,1 +1,1 @@
-my new file contents
+This is to encode file in base 32/64 format
