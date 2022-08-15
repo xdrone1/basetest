@@ -32,10 +32,6 @@ variable "east_nsg_name" {
 default = ""   
  } 
 
- variable "east_nsg_name" {
-default = ""   
- }
-
 variable "vnet01_address" {
 #vNet Address  
 default = ["10.0.0.0/16"]
