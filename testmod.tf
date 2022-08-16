@@ -1,35 +1,35 @@
 variable "rg1_name" {
   #Resource Group Name  
   description = "Please provide RG1 Name"
-  default = ""  
+  default = "sample_rg"  
 }
 
 variable "rg1_location" {
 #Resource Group Location 
-default = ""
+default = "eastus"
 }
 
 variable "east_vNet01_name" {
 #vNet Name  
-default = ""
+default = "myVlan7"
 }
 
 variable "vnet01_internal_subnet01" {
 #Subnet Name  
-default = ""
+default = "78.78.9.0"
 }
 
 variable "Test-VM01-Name" {
 #VM Name 
-default = ""
+default = "vmf869"
 } 
 
 variable "vm_size_name" {
 #VM Size 
-default = ""
+default = "standard_b2s"
  }
 variable "east_nsg_name" {
-default = ""   
+default = "nsg0201"   
  } 
 
 variable "vnet01_address" {
